@@ -67,7 +67,7 @@ function Pomodoro() {
         <div>
           <p id="timer-label">Break!</p>
           <audio id="beep">
-            <source src="ta-saindo-da-jaula-o-monstro_1.mp3" type="audio/mpeg"/>
+            <source src="" type="audio/mpeg"/>
           </audio>
           <h1 id="time-left">{mins}:{secs}</h1>
           <button id="start_stop" onClick={startStop}>Start/Stop</button>
